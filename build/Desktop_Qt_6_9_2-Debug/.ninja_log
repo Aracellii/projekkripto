@@ -1,0 +1,9 @@
+# ninja log v6
+1	190	1758989367184289783	projekkripto_autogen/timestamp	4eb4194cb9fabc86
+1	190	1758989367184289783	projekkripto_autogen/mocs_compilation.cpp	4eb4194cb9fabc86
+1	190	1758989367184289783	/home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug/projekkripto_autogen/timestamp	4eb4194cb9fabc86
+1	190	1758989367184289783	/home/aracelli/Kuliah/Kriptografi/projekkripto/build/Desktop_Qt_6_9_2-Debug/projekkripto_autogen/mocs_compilation.cpp	4eb4194cb9fabc86
+191	1314	1758989367189776737	CMakeFiles/projekkripto.dir/projekkripto_autogen/mocs_compilation.cpp.o	4fb562b0fd4a7d25
+191	1351	1758989367190351164	CMakeFiles/projekkripto.dir/main.cpp.o	59470fe505258d45
+191	1458	1758989367190577103	CMakeFiles/projekkripto.dir/mainwindow.cpp.o	d22a5e9b2622797e
+1458	1635	1758989368456258590	projekkripto	b515dd57cb8aea13
