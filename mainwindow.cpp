@@ -75,7 +75,7 @@ void MainWindow::on_pushButtonEncryptViginere_clicked()
 void MainWindow::on_pushButtonDecryptViginere_clicked()
 {
     QString text = ui->lineEditInputViginere->text();
-    QString kataKunci = ui->lineEditInputViginere2->text() ;
+    QString kataKunci = ui->lineEditInputViginere2->text();
 
     decryptviginere(text, kataKunci);
     ui->lineOutputViginere->setText(text);
@@ -85,7 +85,7 @@ void MainWindow::on_pushButtonDecryptViginere_clicked()
 void MainWindow::on_pushButtonXorEncrypt_clicked()
 {
     QString text = ui->lineEditInputXor->text();
-    QString key = ui->lineEditInputXor_2->text();
+    QString key = ui->lineEditInputXor2->text();
 
     XorEncrypt(text, key);
     ui->lineOutputXor->setText(text);
@@ -95,10 +95,18 @@ void MainWindow::on_pushButtonXorEncrypt_clicked()
 void MainWindow::on_pushButtonXorDecrypt_clicked()
 {
     QString text = ui->lineEditInputXor->text();
-    QString key = ui->lineEditInputXor_2->text();
+    QString key = ui->lineEditInputXor2->text();
 
     XorDecrypt(text, key);
     ui->lineOutputXor->setText(text);
+}
+
+QString toHexString(const QByteArray &data) {
+    return QString(data.toHex());
+}
+
+QByteArray fromHexString(const QString &hex) {
+    return QByteArray::fromHex(hex.toUtf8());
 }
 
 void MainWindow::decryptviginere(QString &plain, QString kataKunci)
@@ -182,11 +190,41 @@ void MainWindow::shiftASCII(QString &plain, int shiftValue)
 // XOR Encrypt (plaintext → hex)
 void MainWindow::XorEncrypt(QString &plain, QString key)
 {
+    if (key.isEmpty()) return;
 
+    QByteArray input  = plain.toUtf8();
+    QByteArray k      = key.toUtf8();
+    QByteArray result;
+    result.resize(input.size());
+
+    for (int i = 0; i < input.size(); i++) {
+        result[i] = input[i] ^ k[i % k.size()];
+    }
+
+    // ubah hasil ke hex agar tampil rapi
+    QString hexResult = toHexString(result);
+    ui->lineOutputXor->setText(hexResult);
+
+    plain = hexResult;
 }
 
 // XOR Decrypt (hex → plaintext)
-void MainWindow::XorDecrypt(QString &cipher, QString key)
+void MainWindow::XorDecrypt(QString &cipherHex, QString key)
 {
+    if (key.isEmpty()) return;
 
+    QByteArray input  = fromHexString(cipherHex);
+    QByteArray k      = key.toUtf8();
+    QByteArray result;
+    result.resize(input.size());
+
+    for (int i = 0; i < input.size(); i++) {
+        result[i] = input[i] ^ k[i % k.size()];
+    }
+
+    QString plainText = QString::fromUtf8(result);
+    ui->lineOutputXor->setText(plainText);
+
+    cipherHex = plainText;
 }
+

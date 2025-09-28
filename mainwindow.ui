@@ -159,7 +159,7 @@
        <string>Decrypt</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEditInputXor_2">
+     <widget class="QLineEdit" name="lineEditInputXor">
       <property name="geometry">
        <rect>
         <x>230</x>
@@ -185,7 +185,7 @@
        <string>Back</string>
       </property>
      </widget>
-     <widget class="QLineEdit" name="lineEditInputXor">
+     <widget class="QLineEdit" name="lineEditInputXor2">
       <property name="geometry">
        <rect>
         <x>230</x>
