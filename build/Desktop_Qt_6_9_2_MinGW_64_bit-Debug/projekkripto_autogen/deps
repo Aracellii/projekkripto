@@ -640,15 +640,15 @@ projekkripto_autogen/timestamp: \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/time.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
-	D:/AKuliah/New\ things/projekkripto/CMakeLists.txt \
-	D:/AKuliah/New\ things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
-	D:/AKuliah/New\ things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake \
-	D:/AKuliah/New\ things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
-	D:/AKuliah/New\ things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
-	D:/AKuliah/New\ things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
-	D:/AKuliah/New\ things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/moc_predefs.h \
-	D:/AKuliah/New\ things/projekkripto/main.cpp \
-	D:/AKuliah/New\ things/projekkripto/mainwindow.cpp \
-	D:/AKuliah/New\ things/projekkripto/mainwindow.h \
-	D:/AKuliah/New\ things/projekkripto/mainwindow.ui \
+	C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/CMakeLists.txt \
+	C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
+	C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake \
+	C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
+	C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
+	C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
+	C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/moc_predefs.h \
+	C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/main.cpp \
+	C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/mainwindow.cpp \
+	C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/mainwindow.h \
+	C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/mainwindow.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

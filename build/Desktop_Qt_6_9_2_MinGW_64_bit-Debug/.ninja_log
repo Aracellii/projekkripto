@@ -1,81 +1,15 @@
 # ninja log v6
 611	2727	7807570422887026	CMakeFiles/projekkripto.dir/main.cpp.obj	17ec2ff3103268
-43	214	7807638710098983	projekkripto_autogen/timestamp	77a87e281fe2d0a1
-608	2665	7807570422857022	CMakeFiles/projekkripto.dir/projekkripto_autogen/mocs_compilation.cpp.obj	ff5b66d4300b9516
-43	214	7807638710098983	projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-2691	2897	7807638736579003	projekkripto.exe	9d2ed6941f69dca6
-43	214	7807638710098983	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-43	214	7807638710098983	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/timestamp	77a87e281fe2d0a1
-214	2691	7807638711806742	CMakeFiles/projekkripto.dir/mainwindow.cpp.obj	b112dae8342d831f
-12	252	7807655174666821	projekkripto_autogen/timestamp	77a87e281fe2d0a1
-12	252	7807655174666821	projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-12	252	7807655174666821	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/timestamp	77a87e281fe2d0a1
-12	252	7807655174666821	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-252	2295	7807655177070420	CMakeFiles/projekkripto.dir/mainwindow.cpp.obj	b112dae8342d831f
-2295	2470	7807655197495954	projekkripto.exe	9d2ed6941f69dca6
-25	226	7807656489108915	projekkripto_autogen/timestamp	77a87e281fe2d0a1
-25	226	7807656489108915	projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-25	226	7807656489108915	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/timestamp	77a87e281fe2d0a1
-25	226	7807656489108915	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-37	247	7807659692607334	projekkripto_autogen/timestamp	77a87e281fe2d0a1
-37	247	7807659692607334	projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-37	247	7807659692607334	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/timestamp	77a87e281fe2d0a1
-37	247	7807659692607334	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-50	246	7807660732228584	projekkripto_autogen/timestamp	77a87e281fe2d0a1
-50	246	7807660732228584	projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-50	246	7807660732228584	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/timestamp	77a87e281fe2d0a1
-50	246	7807660732228584	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-43	230	7807660835183376	projekkripto_autogen/timestamp	77a87e281fe2d0a1
-43	230	7807660835183376	projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-43	230	7807660835183376	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/timestamp	77a87e281fe2d0a1
-43	230	7807660835183376	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-43	231	7807661328863674	projekkripto_autogen/timestamp	77a87e281fe2d0a1
-43	231	7807661328863674	projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-43	231	7807661328863674	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/timestamp	77a87e281fe2d0a1
-43	231	7807661328863674	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-40	218	7807661510375280	projekkripto_autogen/timestamp	77a87e281fe2d0a1
-40	218	7807661510375280	projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-40	218	7807661510375280	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/timestamp	77a87e281fe2d0a1
-40	218	7807661510375280	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-36	212	7807661780818182	projekkripto_autogen/timestamp	77a87e281fe2d0a1
-36	212	7807661780818182	projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-36	212	7807661780818182	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/timestamp	77a87e281fe2d0a1
-36	212	7807661780818182	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-39	208	7807662858737002	projekkripto_autogen/timestamp	77a87e281fe2d0a1
-39	208	7807662858737002	projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-39	208	7807662858737002	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/timestamp	77a87e281fe2d0a1
-39	208	7807662858737002	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-208	2754	7807662860425980	CMakeFiles/projekkripto.dir/mainwindow.cpp.obj	b112dae8342d831f
-2754	2955	7807662885890147	projekkripto.exe	9d2ed6941f69dca6
-38	246	7807663716463644	projekkripto_autogen/timestamp	77a87e281fe2d0a1
-38	246	7807663716463644	projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-38	246	7807663716463644	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/timestamp	77a87e281fe2d0a1
-38	246	7807663716463644	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-247	2736	7807663718550559	CMakeFiles/projekkripto.dir/mainwindow.cpp.obj	b112dae8342d831f
-2737	2929	7807663743445815	projekkripto.exe	9d2ed6941f69dca6
-26	178	7807666962547944	projekkripto_autogen/timestamp	77a87e281fe2d0a1
-26	178	7807666962547944	projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-26	178	7807666962547944	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/timestamp	77a87e281fe2d0a1
-26	178	7807666962547944	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-36	209	7807667106902613	projekkripto_autogen/timestamp	77a87e281fe2d0a1
-36	209	7807667106902613	projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-36	209	7807667106902613	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/timestamp	77a87e281fe2d0a1
-36	209	7807667106902613	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-210	2729	7807667108644432	CMakeFiles/projekkripto.dir/mainwindow.cpp.obj	b112dae8342d831f
-2729	2936	7807667133838155	projekkripto.exe	9d2ed6941f69dca6
-39	252	7807667985133234	projekkripto_autogen/timestamp	77a87e281fe2d0a1
-39	252	7807667985133234	projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-39	252	7807667985133234	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/timestamp	77a87e281fe2d0a1
-39	252	7807667985133234	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-253	2737	7807667987269417	CMakeFiles/projekkripto.dir/mainwindow.cpp.obj	b112dae8342d831f
-2737	2945	7807668012115632	projekkripto.exe	9d2ed6941f69dca6
-11	179	7807669649500486	projekkripto_autogen/timestamp	77a87e281fe2d0a1
-11	179	7807669649500486	projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-11	179	7807669649500486	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/timestamp	77a87e281fe2d0a1
-11	179	7807669649500486	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
 44	215	7807670655385967	projekkripto_autogen/timestamp	77a87e281fe2d0a1
+608	2665	7807570422857022	CMakeFiles/projekkripto.dir/projekkripto_autogen/mocs_compilation.cpp.obj	ff5b66d4300b9516
 44	215	7807670655385967	projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-44	215	7807670655385967	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/timestamp	77a87e281fe2d0a1
-44	215	7807670655385967	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
-216	2811	7807670657102821	CMakeFiles/projekkripto.dir/mainwindow.cpp.obj	b112dae8342d831f
 2811	3019	7807670683064608	projekkripto.exe	9d2ed6941f69dca6
+216	2811	7807670657102821	CMakeFiles/projekkripto.dir/mainwindow.cpp.obj	b112dae8342d831f
+68	3228	7807737100918418	projekkripto_autogen/timestamp	718eb1de62ba132c
+68	3228	7807737100918418	projekkripto_autogen/mocs_compilation.cpp	718eb1de62ba132c
+68	3228	7807737100918418	C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/timestamp	718eb1de62ba132c
+68	3228	7807737100918418	C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/mocs_compilation.cpp	718eb1de62ba132c
+3241	10021	7807737103764665	CMakeFiles/projekkripto.dir/main.cpp.obj	4bc912665984756b
+3232	10200	7807737103689256	CMakeFiles/projekkripto.dir/projekkripto_autogen/mocs_compilation.cpp.obj	333a7cb086fe95a4
+3249	11001	7807737103859953	CMakeFiles/projekkripto.dir/mainwindow.cpp.obj	e9ad1141a6015c4c
+11002	12340	7807737181380611	projekkripto.exe	9d2ed6941f69dca6
