@@ -23,7 +23,7 @@
       <height>550</height>
      </rect>
     </property>
-    <widget class="QWidget" name="page">
+    <widget class="QWidget" name="pageUtama">
      <widget class="QPushButton" name="pushButtonCaesar">
       <property name="geometry">
        <rect>
@@ -131,8 +131,21 @@
        <string>modern</string>
       </property>
      </widget>
+     <widget class="QPushButton" name="pushButtonSuper">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>330</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Super</string>
+      </property>
+     </widget>
     </widget>
-    <widget class="QWidget" name="page_4">
+    <widget class="QWidget" name="pageXor">
      <widget class="QPushButton" name="pushButtonXorEncrypt">
       <property name="geometry">
        <rect>
@@ -228,7 +241,22 @@
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_2">
+    <widget class="QWidget" name="pageSuper">
+     <widget class="QPushButton" name="pushButtonBackSuper">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>340</y>
+        <width>94</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Back</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="pageCaesar">
      <widget class="QLineEdit" name="lineEditInput">
       <property name="geometry">
        <rect>
@@ -308,7 +336,7 @@
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_3">
+    <widget class="QWidget" name="pageViginere">
      <widget class="QPushButton" name="pushButtonBackViginere">
       <property name="geometry">
        <rect>
@@ -412,7 +440,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>25</height>
+     <height>23</height>
     </rect>
    </property>
   </widget>
