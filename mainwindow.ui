@@ -17,8 +17,8 @@
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>30</y>
+      <x>70</x>
+      <y>0</y>
       <width>800</width>
       <height>550</height>
      </rect>
@@ -27,8 +27,8 @@
      <widget class="QPushButton" name="pushButtonCaesar">
       <property name="geometry">
        <rect>
-        <x>190</x>
-        <y>130</y>
+        <x>180</x>
+        <y>110</y>
         <width>200</width>
         <height>40</height>
        </rect>
@@ -40,8 +40,8 @@
      <widget class="QPushButton" name="pushButtonViginere">
       <property name="geometry">
        <rect>
-        <x>420</x>
-        <y>130</y>
+        <x>410</x>
+        <y>110</y>
         <width>200</width>
         <height>40</height>
        </rect>
@@ -53,8 +53,8 @@
      <widget class="QLabel" name="labelChoice">
       <property name="geometry">
        <rect>
-        <x>280</x>
-        <y>50</y>
+        <x>270</x>
+        <y>30</y>
         <width>250</width>
         <height>40</height>
        </rect>
@@ -66,7 +66,86 @@
        <set>Qt::AlignmentFlag::AlignCenter</set>
       </property>
      </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>80</y>
+        <width>151</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Metode Chiper Klasik</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>170</y>
+        <width>191</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Metode Algoritma Modern</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonModern1">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>220</y>
+        <width>200</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonModern2">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>220</y>
+        <width>200</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Modern</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>290</y>
+        <width>171</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Metode Algoritma Super</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonGabungan">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>340</y>
+        <width>261</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Metode Kriptografi gabungan</string>
+      </property>
+     </widget>
     </widget>
+    <widget class="QWidget" name="page_4"/>
     <widget class="QWidget" name="page_2">
      <widget class="QLineEdit" name="lineEditInput">
       <property name="geometry">
@@ -225,7 +304,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>23</height>
+     <height>25</height>
     </rect>
    </property>
   </widget>
