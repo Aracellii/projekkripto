@@ -16,7 +16,7 @@ MainWindow::~MainWindow()
 // pindah ke page Caesar
 void MainWindow::on_pushButtonSuper_clicked()
 {
-    ui->stackedWidget->setCurrentWidget(ui->pageCaesar);
+    ui->stackedWidget->setCurrentWidget(ui->pageSuper);
 }
 
 // pindah ke page Viginere
