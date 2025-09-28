@@ -1,0 +1,9 @@
+# ninja log v6
+8	702	7807382201980594	projekkripto_autogen/timestamp	77a87e281fe2d0a1
+8	702	7807382201980594	projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
+8	702	7807382201980594	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/timestamp	77a87e281fe2d0a1
+8	702	7807382201980594	D:/AKuliah/New things/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/mocs_compilation.cpp	77a87e281fe2d0a1
+708	3012	7807382202898246	CMakeFiles/projekkripto.dir/projekkripto_autogen/mocs_compilation.cpp.obj	ff5b66d4300b9516
+712	3052	7807382202938048	CMakeFiles/projekkripto.dir/main.cpp.obj	17ec2ff3103268
+716	3345	7807382202968044	CMakeFiles/projekkripto.dir/mainwindow.cpp.obj	b112dae8342d831f
+3345	3626	7807382229267775	projekkripto.exe	9d2ed6941f69dca6
