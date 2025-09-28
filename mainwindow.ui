@@ -214,6 +214,19 @@
        <string>  Hasil Akan Tampil Disini</string>
       </property>
      </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>80</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>XOR chiper</string>
+      </property>
+     </widget>
     </widget>
     <widget class="QWidget" name="page_2">
      <widget class="QLineEdit" name="lineEditInput">
@@ -279,6 +292,19 @@
       </property>
       <property name="placeholderText">
        <string>Masukkan teks</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_10">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>50</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Caesar Chiper</string>
       </property>
      </widget>
     </widget>
@@ -362,6 +388,19 @@
       </property>
       <property name="placeholderText">
        <string>  Hasil Akan Tampil Disini</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>90</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Viginere Chiper</string>
       </property>
      </widget>
     </widget>

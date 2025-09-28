@@ -18,19 +18,18 @@ public:
 
 private slots:
     void on_pushButtonCaesar_clicked();
+    void on_pushButtonEncrypt_clicked();
+    void on_pushButtonBack_clicked();
+
     void on_pushButtonViginere_clicked();
+    void on_pushButtonEncryptViginere_clicked();
+    void on_pushButtonDecryptViginere_clicked();
+    void on_pushButtonBackViginere_clicked();
 
     void on_pushButtonXor_clicked();
     void on_pushButtonXorEncrypt_clicked();
     void on_pushButtonXorDecrypt_clicked();
-
-    void on_pushButtonEncrypt_clicked();
-    void on_pushButtonEncryptViginere_clicked();
-    void on_pushButtonDecryptViginere_clicked();
-
-
-    void on_pushButtonBack_clicked();
-    void on_pushButtonBackViginere_clicked();
+    void on_pushButtonBackXor_clicked();
 
 private:
     Ui::MainWindow *ui;

@@ -16,19 +16,19 @@ MainWindow::~MainWindow()
 // pindah ke page Caesar
 void MainWindow::on_pushButtonCaesar_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(1);
+    ui->stackedWidget->setCurrentIndex(2);
 }
 
 // pindah ke page Viginere
 void MainWindow::on_pushButtonViginere_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(2);
+    ui->stackedWidget->setCurrentIndex(3);
 }
 
 // pindah ke page Xor
 void MainWindow::on_pushButtonXor_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(3);
+    ui->stackedWidget->setCurrentIndex(1);
 }
 
 // Tombol Back dari Caesar
@@ -42,6 +42,13 @@ void MainWindow::on_pushButtonBackViginere_clicked()
 {
     ui->stackedWidget->setCurrentIndex(0);
 }
+
+// Tombol Back Dari Xor
+void MainWindow::on_pushButtonBackXor_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(0);
+}
+
 
 
 // Tombol Encrypt Caesar
@@ -172,26 +179,14 @@ void MainWindow::shiftASCII(QString &plain, int shiftValue)
     }
 }
 
+// XOR Encrypt (plaintext → hex)
 void MainWindow::XorEncrypt(QString &plain, QString key)
 {
-    int j = 0;
 
-    for (int i = 0; i < plain.length(); i++) {
-        char c = plain[i].toLatin1();
-        char k = key[j].toLatin1();
-
-        // XOR operation
-        c = c ^ k;
-
-        plain[i] = c;
-
-        j++;
-        if (j >= key.length()) j = 0;
-    }
 }
 
+// XOR Decrypt (hex → plaintext)
 void MainWindow::XorDecrypt(QString &cipher, QString key)
 {
-    // Karena XOR sifatnya simetris, decrypt = encrypt lagi
-    XorEncrypt(cipher, key);
+
 }

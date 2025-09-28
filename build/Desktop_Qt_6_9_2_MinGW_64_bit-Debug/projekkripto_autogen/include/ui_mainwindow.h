@@ -43,12 +43,14 @@ public:
     QPushButton *pushButtonBackXor;
     QLineEdit *lineEditInputXor;
     QLineEdit *lineOutputXor;
+    QLabel *label_12;
     QWidget *page_2;
     QLineEdit *lineEditInput;
     QLineEdit *lineEditShift;
     QPushButton *pushButtonEncrypt;
     QPushButton *pushButtonBack;
     QLineEdit *lineOutputCaesar;
+    QLabel *label_10;
     QWidget *page_3;
     QPushButton *pushButtonBackViginere;
     QLineEdit *lineEditInputViginere;
@@ -56,6 +58,7 @@ public:
     QPushButton *pushButtonEncryptViginere;
     QPushButton *pushButtonDecryptViginere;
     QLineEdit *lineOutputViginere;
+    QLabel *label_11;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -117,6 +120,9 @@ public:
         lineOutputXor = new QLineEdit(page_4);
         lineOutputXor->setObjectName("lineOutputXor");
         lineOutputXor->setGeometry(QRect(300, 320, 171, 71));
+        label_12 = new QLabel(page_4);
+        label_12->setObjectName("label_12");
+        label_12->setGeometry(QRect(330, 80, 101, 20));
         stackedWidget->addWidget(page_4);
         page_2 = new QWidget();
         page_2->setObjectName("page_2");
@@ -135,6 +141,9 @@ public:
         lineOutputCaesar = new QLineEdit(page_2);
         lineOutputCaesar->setObjectName("lineOutputCaesar");
         lineOutputCaesar->setGeometry(QRect(250, 270, 300, 30));
+        label_10 = new QLabel(page_2);
+        label_10->setObjectName("label_10");
+        label_10->setGeometry(QRect(370, 50, 91, 20));
         stackedWidget->addWidget(page_2);
         page_3 = new QWidget();
         page_3->setObjectName("page_3");
@@ -156,6 +165,9 @@ public:
         lineOutputViginere = new QLineEdit(page_3);
         lineOutputViginere->setObjectName("lineOutputViginere");
         lineOutputViginere->setGeometry(QRect(340, 320, 171, 71));
+        label_11 = new QLabel(page_3);
+        label_11->setObjectName("label_11");
+        label_11->setGeometry(QRect(370, 90, 111, 20));
         stackedWidget->addWidget(page_3);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
@@ -189,11 +201,13 @@ public:
         lineEditInputXor->setText(QString());
         lineEditInputXor->setPlaceholderText(QCoreApplication::translate("MainWindow", "Masukkan Enkripsi", nullptr));
         lineOutputXor->setPlaceholderText(QCoreApplication::translate("MainWindow", "  Hasil Akan Tampil Disini", nullptr));
+        label_12->setText(QCoreApplication::translate("MainWindow", "XOR chiper", nullptr));
         lineEditInput->setPlaceholderText(QCoreApplication::translate("MainWindow", "Masukkan teks", nullptr));
         lineEditShift->setPlaceholderText(QCoreApplication::translate("MainWindow", "Masukkan shift (angka)", nullptr));
         pushButtonEncrypt->setText(QCoreApplication::translate("MainWindow", "Encrypt", nullptr));
         pushButtonBack->setText(QCoreApplication::translate("MainWindow", "Back", nullptr));
         lineOutputCaesar->setPlaceholderText(QCoreApplication::translate("MainWindow", "Masukkan teks", nullptr));
+        label_10->setText(QCoreApplication::translate("MainWindow", "Caesar Chiper", nullptr));
         pushButtonBackViginere->setText(QCoreApplication::translate("MainWindow", "Back", nullptr));
         lineEditInputViginere->setPlaceholderText(QCoreApplication::translate("MainWindow", "Masukkan teks", nullptr));
         lineEditInputViginere2->setText(QString());
@@ -201,6 +215,7 @@ public:
         pushButtonEncryptViginere->setText(QCoreApplication::translate("MainWindow", "Encrypt ", nullptr));
         pushButtonDecryptViginere->setText(QCoreApplication::translate("MainWindow", "Decrypt", nullptr));
         lineOutputViginere->setPlaceholderText(QCoreApplication::translate("MainWindow", "  Hasil Akan Tampil Disini", nullptr));
+        label_11->setText(QCoreApplication::translate("MainWindow", "Viginere Chiper", nullptr));
     } // retranslateUi
 
 };
