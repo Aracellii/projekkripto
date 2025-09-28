@@ -19,13 +19,16 @@ public:
 private slots:
     void on_pushButtonCaesar_clicked();
     void on_pushButtonViginere_clicked();
+
+    void on_pushButtonXor_clicked();
+    void on_pushButtonXorEncrypt_clicked();
+    void on_pushButtonXorDecrypt_clicked();
+
+
     void on_pushButtonEncrypt_clicked();
     void on_pushButtonEncryptViginere_clicked();
     void on_pushButtonDecryptViginere_clicked();
 
-    void on_pushButtonModern1_clicked();
-    void on_pushButtonModern2_clicked();
-    void on_pushButtonGabungan_clicked();
 
     void on_pushButtonBack_clicked();
     void on_pushButtonBackRailway_clicked();
@@ -38,6 +41,9 @@ private:
     void decryptviginere(QString &text, QString kataKunci);
 
     void shiftASCII(QString &text, int shiftValue);
+
+    void XorEncrypt(QString &plain, QString key);
+    void XorDecrypt(QString &cipher, QString key);
 };
 
 #endif // MAINWINDOW_H

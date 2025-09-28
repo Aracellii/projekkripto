@@ -17,8 +17,8 @@
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>0</y>
+      <x>40</x>
+      <y>-10</y>
       <width>800</width>
       <height>550</height>
      </rect>
@@ -34,7 +34,7 @@
        </rect>
       </property>
       <property name="text">
-       <string>Caesar Cipher</string>
+       <string>Caesar</string>
       </property>
      </widget>
      <widget class="QPushButton" name="pushButtonViginere">
@@ -92,32 +92,6 @@
        <string>Metode Algoritma Modern</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButtonModern1">
-      <property name="geometry">
-       <rect>
-        <x>180</x>
-        <y>220</y>
-        <width>200</width>
-        <height>40</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-     <widget class="QPushButton" name="pushButtonModern2">
-      <property name="geometry">
-       <rect>
-        <x>410</x>
-        <y>220</y>
-        <width>200</width>
-        <height>40</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Modern</string>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_3">
       <property name="geometry">
        <rect>
@@ -131,21 +105,116 @@
        <string>Metode Algoritma Super</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButtonGabungan">
+     <widget class="QPushButton" name="pushButtonXor">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>220</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Xor</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonModern">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>220</y>
+        <width>201</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>modern</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QPushButton" name="pushButtonXorEncrypt">
       <property name="geometry">
        <rect>
         <x>270</x>
-        <y>340</y>
-        <width>261</width>
+        <y>280</y>
+        <width>94</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Encrypt </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonXorDecrypt">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>280</y>
+        <width>94</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Decrypt</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditInputXor_2">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>160</y>
+        <width>300</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>Masukkan teks</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonBackXor">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>410</y>
+        <width>200</width>
         <height>40</height>
        </rect>
       </property>
       <property name="text">
-       <string>Metode Kriptografi gabungan</string>
+       <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditInputXor">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>220</y>
+        <width>300</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>Masukkan Enkripsi</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineOutputXor">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>320</y>
+        <width>171</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>  Hasil Akan Tampil Disini</string>
       </property>
      </widget>
     </widget>
-    <widget class="QWidget" name="page_4"/>
     <widget class="QWidget" name="page_2">
      <widget class="QLineEdit" name="lineEditInput">
       <property name="geometry">

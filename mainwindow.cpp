@@ -25,6 +25,11 @@ void MainWindow::on_pushButtonViginere_clicked()
     ui->stackedWidget->setCurrentIndex(2);
 }
 
+// pindah ke page Xor
+void MainWindow::on_pushButtonXor_clicked()
+{
+    ui->stackedWidget->setCurrentIndex(3);
+}
 
 // Tombol Back dari Caesar
 void MainWindow::on_pushButtonBack_clicked()
@@ -37,13 +42,12 @@ void MainWindow::on_pushButtonBackRailway_clicked()
 {
     ui->stackedWidget->setCurrentIndex(0);
 }
+
 // Tombol Back Dari Viginere
 void MainWindow::on_pushButtonBackViginere_clicked()
 {
     ui->stackedWidget->setCurrentIndex(0);
 }
-
-
 
 
 // Tombol Encrypt Caesar
@@ -75,6 +79,27 @@ void MainWindow::on_pushButtonDecryptViginere_clicked()
     decryptviginere(text, kataKunci);
     ui->lineOutputViginere->setText(text);
 }
+
+// Tombol Encrypt XOR
+void MainWindow::on_pushButtonXorEncrypt_clicked()
+{
+    QString text = ui->lineEditInputXor->text();
+    QString key = ui->lineEditInputXor_2->text();
+
+    XorEncrypt(text, key);
+    ui->lineOutputXor->setText(text);
+}
+
+// Tombol Decrypt XOR
+void MainWindow::on_pushButtonXorDecrypt_clicked()
+{
+    QString text = ui->lineEditInputXor->text();
+    QString key = ui->lineEditInputXor_2->text();
+
+    XorDecrypt(text, key);
+    ui->lineOutputXor->setText(text);
+}
+
 void MainWindow::decryptviginere(QString &plain, QString kataKunci)
 {
     int j = 0;
@@ -153,4 +178,28 @@ void MainWindow::shiftASCII(QString &plain, int shiftValue)
 
         plain[i] = c; // assign kembali ke QString
     }
+}
+
+void MainWindow::XorEncrypt(QString &plain, QString key)
+{
+    int j = 0;
+
+    for (int i = 0; i < plain.length(); i++) {
+        char c = plain[i].toLatin1();
+        char k = key[j].toLatin1();
+
+        // XOR operation
+        c = c ^ k;
+
+        plain[i] = c;
+
+        j++;
+        if (j >= key.length()) j = 0;
+    }
+}
+
+void MainWindow::XorDecrypt(QString &cipher, QString key)
+{
+    // Karena XOR sifatnya simetris, decrypt = encrypt lagi
+    XorEncrypt(cipher, key);
 }
