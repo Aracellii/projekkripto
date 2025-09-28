@@ -37,12 +37,6 @@ void MainWindow::on_pushButtonBack_clicked()
     ui->stackedWidget->setCurrentIndex(0);
 }
 
-// Tombol Back dari Railway
-void MainWindow::on_pushButtonBackRailway_clicked()
-{
-    ui->stackedWidget->setCurrentIndex(0);
-}
-
 // Tombol Back Dari Viginere
 void MainWindow::on_pushButtonBackViginere_clicked()
 {
@@ -155,8 +149,6 @@ void MainWindow::viginere(QString &plain, QString kataKunci)
         if (j >= kataKunci.length()) j = 0;
     }
 }
-
-
 
 
 

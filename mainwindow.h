@@ -24,14 +24,12 @@ private slots:
     void on_pushButtonXorEncrypt_clicked();
     void on_pushButtonXorDecrypt_clicked();
 
-
     void on_pushButtonEncrypt_clicked();
     void on_pushButtonEncryptViginere_clicked();
     void on_pushButtonDecryptViginere_clicked();
 
 
     void on_pushButtonBack_clicked();
-    void on_pushButtonBackRailway_clicked();
     void on_pushButtonBackViginere_clicked();
 
 private:
