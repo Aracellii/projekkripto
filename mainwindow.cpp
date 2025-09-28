@@ -72,10 +72,36 @@ void MainWindow::on_pushButtonDecryptViginere_clicked()
     QString text = ui->lineEditInputViginere->text();
     QString kataKunci = ui->lineEditInputViginere2->text() ;
 
-    viginere(text, kataKunci);
+    decryptviginere(text, kataKunci);
     ui->lineOutputViginere->setText(text);
 }
+void MainWindow::decryptviginere(QString &plain, QString kataKunci)
+{
+    int j = 0;
 
+    for (int i = 0; i < plain.length(); i++) {
+        char c = plain[i].toLatin1();
+        char kataKunciShift = kataKunci[j].toLatin1();
+
+        int shift = 0;
+        if (kataKunciShift >= 'a' && kataKunciShift <= 'z')
+            shift = kataKunciShift - 'a';
+        else if (kataKunciShift >= 'A' && kataKunciShift <= 'Z')
+            shift = kataKunciShift - 'A';
+
+        if (c >= 'a' && c <= 'z') {
+            c = ( (c - 'a' - shift + 26) % 26 ) + 'a';  // +26 untuk menghindari negatif
+        }
+        else if (c >= 'A' && c <= 'Z') {
+            c = ( (c - 'A' - shift + 26) % 26 ) + 'A';
+        }
+
+        plain[i] = c;
+
+        j++;
+        if (j >= kataKunci.length()) j = 0;
+    }
+}
 
 void MainWindow::viginere(QString &plain, QString kataKunci)
 {

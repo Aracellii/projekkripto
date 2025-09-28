@@ -31,6 +31,8 @@ private:
     Ui::MainWindow *ui;
 
     void viginere(QString &text, QString kataKunci);
+    void decryptviginere(QString &text, QString kataKunci);
+
     void shiftASCII(QString &text, int shiftValue);
 };
 
