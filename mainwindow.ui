@@ -17,8 +17,8 @@
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
+      <x>50</x>
+      <y>30</y>
       <width>800</width>
       <height>550</height>
      </rect>
@@ -27,8 +27,8 @@
      <widget class="QPushButton" name="pushButtonCaesar">
       <property name="geometry">
        <rect>
-        <x>300</x>
-        <y>150</y>
+        <x>190</x>
+        <y>130</y>
         <width>200</width>
         <height>40</height>
        </rect>
@@ -37,17 +37,17 @@
        <string>Caesar Cipher</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButtonRailway">
+     <widget class="QPushButton" name="pushButtonViginere">
       <property name="geometry">
        <rect>
-        <x>300</x>
-        <y>250</y>
+        <x>420</x>
+        <y>130</y>
         <width>200</width>
         <height>40</height>
        </rect>
       </property>
       <property name="text">
-       <string>Railway Cipher</string>
+       <string>Viginere</string>
       </property>
      </widget>
      <widget class="QLabel" name="labelChoice">
@@ -107,27 +107,11 @@
        <string>Encrypt</string>
       </property>
      </widget>
-     <widget class="QLabel" name="labelOutput">
-      <property name="geometry">
-       <rect>
-        <x>250</x>
-        <y>260</y>
-        <width>300</width>
-        <height>40</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string>Hasil akan tampil di sini</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
-      </property>
-     </widget>
      <widget class="QPushButton" name="pushButtonBack">
       <property name="geometry">
        <rect>
         <x>250</x>
-        <y>320</y>
+        <y>360</y>
         <width>300</width>
         <height>40</height>
        </rect>
@@ -136,35 +120,100 @@
        <string>Back</string>
       </property>
      </widget>
-    </widget>
-    <widget class="QWidget" name="page_3">
-     <widget class="QLabel" name="labelRailway">
+     <widget class="QLineEdit" name="lineOutputCaesar">
       <property name="geometry">
        <rect>
-        <x>200</x>
-        <y>200</y>
-        <width>400</width>
-        <height>40</height>
+        <x>250</x>
+        <y>270</y>
+        <width>300</width>
+        <height>30</height>
        </rect>
       </property>
-      <property name="text">
-       <string>Railway Cipher (Coming Soon)</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignmentFlag::AlignCenter</set>
+      <property name="placeholderText">
+       <string>Masukkan teks</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButtonBackRailway">
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QPushButton" name="pushButtonBackViginere">
       <property name="geometry">
        <rect>
-        <x>300</x>
-        <y>300</y>
+        <x>320</x>
+        <y>410</y>
         <width>200</width>
         <height>40</height>
        </rect>
       </property>
       <property name="text">
        <string>Back</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditInputViginere">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>160</y>
+        <width>300</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>Masukkan teks</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEditInputViginere2">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>220</y>
+        <width>300</width>
+        <height>30</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>Masukkan Enkripsi</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonEncryptViginere">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>280</y>
+        <width>94</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Encrypt </string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonDecryptViginere">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>280</y>
+        <width>94</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Decrypt</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineOutputViginere">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>320</y>
+        <width>171</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="placeholderText">
+       <string>  Hasil Akan Tampil Disini</string>
       </property>
      </widget>
     </widget>

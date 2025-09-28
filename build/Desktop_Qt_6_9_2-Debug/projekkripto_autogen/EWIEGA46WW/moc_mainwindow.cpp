@@ -41,23 +41,32 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         "MainWindow",
         "on_pushButtonCaesar_clicked",
         "",
-        "on_pushButtonRailway_clicked",
+        "on_pushButtonViginere_clicked",
         "on_pushButtonEncrypt_clicked",
+        "on_pushButtonEncryptViginere_clicked",
+        "on_pushButtonDecryptViginere_clicked",
         "on_pushButtonBack_clicked",
-        "on_pushButtonBackRailway_clicked"
+        "on_pushButtonBackRailway_clicked",
+        "on_pushButtonBackViginere_clicked"
     };
 
     QtMocHelpers::UintData qt_methods {
         // Slot 'on_pushButtonCaesar_clicked'
         QtMocHelpers::SlotData<void()>(1, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'on_pushButtonRailway_clicked'
+        // Slot 'on_pushButtonViginere_clicked'
         QtMocHelpers::SlotData<void()>(3, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'on_pushButtonEncrypt_clicked'
         QtMocHelpers::SlotData<void()>(4, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'on_pushButtonBack_clicked'
+        // Slot 'on_pushButtonEncryptViginere_clicked'
         QtMocHelpers::SlotData<void()>(5, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'on_pushButtonBackRailway_clicked'
+        // Slot 'on_pushButtonDecryptViginere_clicked'
         QtMocHelpers::SlotData<void()>(6, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButtonBack_clicked'
+        QtMocHelpers::SlotData<void()>(7, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButtonBackRailway_clicked'
+        QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButtonBackViginere_clicked'
+        QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -82,10 +91,13 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->on_pushButtonCaesar_clicked(); break;
-        case 1: _t->on_pushButtonRailway_clicked(); break;
+        case 1: _t->on_pushButtonViginere_clicked(); break;
         case 2: _t->on_pushButtonEncrypt_clicked(); break;
-        case 3: _t->on_pushButtonBack_clicked(); break;
-        case 4: _t->on_pushButtonBackRailway_clicked(); break;
+        case 3: _t->on_pushButtonEncryptViginere_clicked(); break;
+        case 4: _t->on_pushButtonDecryptViginere_clicked(); break;
+        case 5: _t->on_pushButtonBack_clicked(); break;
+        case 6: _t->on_pushButtonBackRailway_clicked(); break;
+        case 7: _t->on_pushButtonBackViginere_clicked(); break;
         default: ;
         }
     }
@@ -111,14 +123,14 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 5)
+        if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 8;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 5)
+        if (_id < 8)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 5;
+        _id -= 8;
     }
     return _id;
 }
