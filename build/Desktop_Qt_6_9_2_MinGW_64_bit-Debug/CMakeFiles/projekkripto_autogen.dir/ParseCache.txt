@@ -376,6 +376,6 @@ C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/mainwindow.h
  mdp:C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
  mdp:C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/build/Desktop_Qt_6_9_2_MinGW_64_bit-Debug/projekkripto_autogen/moc_predefs.h
  mdp:C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/mainwindow.h
+C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/main.cpp
 C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/mainwindow.cpp
  uic:./ui_mainwindow.h
-C:/Users/milat/Documents/sementara/kuliyeah/github/projekkripto/main.cpp

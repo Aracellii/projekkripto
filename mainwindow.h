@@ -31,6 +31,11 @@ private slots:
     void on_pushButtonXorDecrypt_clicked();
     void on_pushButtonBackXor_clicked();
 
+    void on_pushButtonBlock_clicked();
+    void on_pushButtonBlockEncrypt_clicked();
+    void on_pushButtonBlockDecrypt_clicked();
+    void on_pushButtonBackBlock_clicked();
+
 private:
     Ui::MainWindow *ui;
 
@@ -41,6 +46,9 @@ private:
 
     void XorEncrypt(QString &plain, QString key);
     void XorDecrypt(QString &cipher, QString key);
+
+    void BlockEncrypt(QString &plain, QString key);
+    void BlockDecrypt(QString &cipher, QString key);
 };
 
 #endif // MAINWINDOW_H
