@@ -30,6 +30,9 @@ private slots:
     void on_pushButtonXorEncrypt_clicked();
     void on_pushButtonXorDecrypt_clicked();
     void on_pushButtonBackXor_clicked();
+    void on_pushButtonSuper_clicked();
+    void on_pushButtonBackSuper_clicked();
+
 
     void on_pushButtonBlock_clicked();
     void on_pushButtonBlockEncrypt_clicked();

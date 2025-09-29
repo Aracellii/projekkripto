@@ -14,51 +14,69 @@ MainWindow::~MainWindow()
 }
 
 // pindah ke page Caesar
-void MainWindow::on_pushButtonCaesar_clicked()
+void MainWindow::on_pushButtonSuper_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(3);
+    ui->stackedWidget->setCurrentWidget(ui->pageSuper);
 }
 
 // pindah ke page Viginere
 void MainWindow::on_pushButtonViginere_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(4);
+    ui->stackedWidget->setCurrentWidget(ui->pageViginere);
 }
 
 // pindah ke page Xor
 void MainWindow::on_pushButtonXor_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(2);
+    ui->stackedWidget->setCurrentWidget(ui->pageXor);
+}
+
+// pindah ke page Caesar
+void MainWindow::on_pushButtonCaesar_clicked()
+{
+    ui->stackedWidget->setCurrentWidget(ui->pageCaesar);
 }
 
 // pindah ke page Block
-void MainWindow::on_pushButtonBlock_clicked()
+void MainWindow::on_pushButtonCaesar_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(1);
+    ui->stackedWidget->setCurrentWidget(ui->pageBlock);
 }
 
 // Tombol Back dari Caesar
 void MainWindow::on_pushButtonBack_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(0);
+    ui->stackedWidget->setCurrentWidget(ui->pageUtama);
 }
 
 // Tombol Back Dari Viginere
 void MainWindow::on_pushButtonBackViginere_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(0);
+    ui->stackedWidget->setCurrentWidget(ui->pageUtama);
 }
 
 // Tombol Back Dari Xor
 void MainWindow::on_pushButtonBackXor_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(0);
+    ui->stackedWidget->setCurrentWidget(ui->pageUtama);
+}
+
+// Tombol Back Dari Super
+void MainWindow::on_pushButtonBackSuper_clicked()
+{
+    ui->stackedWidget->setCurrentWidget(ui->pageUtama);
 }
 
 // Tombol Back Dari Block
 void MainWindow::on_pushButtonBackBlock_clicked()
 {
-    ui->stackedWidget->setCurrentIndex(0);
+    ui->stackedWidget->setCurrentWidget(ui->pageUtama);
+}
+
+// Tombol Back Dari Super
+void MainWindow::on_pushButtonBackSuper_clicked()
+{
+    ui->stackedWidget->setCurrentWidget(ui->pageUtama);
 }
 
 
